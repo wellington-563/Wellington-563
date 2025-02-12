@@ -1,0 +1,55 @@
+/* comando de reset inibido
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*/
+
+/* 100vh - 100% da tela de qq dispositivo
+ box-sinzing - para a imagem nao sair da pagina (dentro do body)
+ border - bordas
+*/
+
+body {
+
+    height: 100vh;
+    background-color: #292A33;
+    color: whitesmoke;
+    box-sizing:  border-box;
+    border: solid #5B6DCD 10px;
+    border-style: double;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;}
+p {
+    color: #f1faee;
+    font-size: large;
+}
+a{
+    color: dodgerblue;
+    font-size: x-large;
+    background-color: rgb(0, 0, 0);
+    font-style: normal;
+}
+footer{
+    color: #e63946;
+}
+.titulo-destaque{
+    color: #22d4fd;
+
+}
+.p1-destaque{
+    color: #cbe295;
+    font-size: x-large;
+}
+img{
+    margin: 10px;
+    padding: 2px;
+    box-sizing:  border-box;
+    border: solid #5B6DCD 5px;
+    border-radius: 5px;
+}
